@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-module "{{ cookiecutter.module_name|replace('-', '_') }}" {
+module "{{ cookiecutter.module_name|replace('_', '-') }}" {
   source = "../.."
 
   project_id  = var.project_id
